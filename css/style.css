@@ -255,14 +255,13 @@ footer {
 
   .navButton:hover {
     background-color: transparent;
-    color: #320A18;
+    color: #893251;
     cursor: pointer;
-    font-size: 15px;
     text-shadow:
-    -.2px -.2px 0 #320A18,
-    .2px -.2px 0 #320A18,
-    -.2px .2px 0 #320A18,
-    .2px .2px 0 #320A18;
+    -.2px -.2px 0 #893251,
+    .2px -.2px 0 #893251,
+    -.2px .2px 0 #893251,
+    .2px .2px 0 #893251;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
@@ -275,22 +274,22 @@ footer {
     color:#320A18;
     font-size: 14px;
     padding: 0px 40px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
   }
 
   .bottomNavButton:hover {
     background-color: transparent;
-    color: #320A18;
+    color: #893251;
     cursor: pointer;
     text-shadow:
-    -.2px -.2px 0 #320A18,
-    .2px -.2px 0 #320A18,
-    -.2px .2px 0 #320A18,
-    .2px .2px 0 #320A18;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -.2px -.2px 0 #893251,
+    .2px -.2px 0 #893251,
+    -.2px .2px 0 #893251,
+    .2px .2px 0 #893251;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
   }
 
   @media only screen and (max-width:600) {
