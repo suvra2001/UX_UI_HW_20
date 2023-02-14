@@ -1,0 +1,316 @@
+html { 
+    scroll-behavior: smooth; 
+  }
+
+nav {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+h1 {
+    color: #320A18;
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500px;
+}
+
+.Skills h3 {
+    color: #320A18;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
+a {
+    color: #893251;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    border-top: 1px solid #893251;
+    height: 50px;
+    padding-bottom: 42px;
+    background-color: white;
+}
+
+.bottomfooter {
+    padding-top: 22px;
+    padding-right: 30px;
+    margin: 0px;
+}
+
+.bottomfooter li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 12px;
+}
+
+.logo {
+    width:15.5%;
+    padding: 1%;
+    text-align:end;
+}
+
+.navigation {
+    display: flex;
+    border-bottom: 1px solid #893251;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fdf3ed;
+    border-bottom: 1px solid #893251;
+    padding-top: 30px;
+
+}
+
+.hero h1 {
+    font-family: 'Lora', sans-seriff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: auto;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.intro {
+    width: 360px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction:row;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fdf3ed;   
+}
+
+.profilephoto {
+    border: 1px solid #893251; 
+    height: 402.3px;
+}
+
+.content {
+    text-align: center;
+    width: 500px;
+    height: 402.3px;
+    border: 1px solid #893251; 
+    background-color: white;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Skills {
+    border-top: 1px solid #893251;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.UX_Skills {
+    padding-left: 120px;
+    width: 400px;
+}
+
+.UI_Skills {
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.software {
+    width: 400px;
+    padding-right: 60px;
+}
+
+.sw {
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    padding-top: 50px; 
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:#fdf3ed; 
+    border-bottom: 1px solid #893251;  
+}
+
+.game {
+    max-width: 260px;
+}
+.cat {
+    max-width: 260px;
+}
+.drama {
+    max-width: 260px;
+}
+
+.works {
+    display: grid;
+    grid-template-areas: 'jap' 'baga';
+    justify-content: center;
+    text-align: center;
+    background-color:#fdf3ed; 
+    padding-bottom: 40px;
+}
+
+.JAP {
+    grid-area: jap;
+    padding-bottom: 50px;
+}
+
+.BAGA {
+    grid-area: baga;
+}
+
+.pinkButton {
+    background-color: #FFF1F1;
+    border: solid 1.5px #D46F93;
+    padding: 12px 48px;
+    font-family: 'Lato', sans-serif;
+    color: #D46F93;
+    transition-duration: 0.4s;
+}
+
+.pinkButton:hover {
+    background-color: #D46F93; 
+    color: white;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+.magentaButton {
+    background-color: #FFF1F1;
+    border: solid 1.5px #893251;
+    padding: 15px 32px;
+    font-family: 'Lato', sans-serif;
+    color: #893251;
+    transition-duration: 0.4s;
+}
+
+.magentaButton:hover {
+    background-color: #893251; 
+    color: white;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+  .navButton {
+    background-color: transparent;
+    border: transparent;
+    color:#320A18;
+    font-size: 14px;
+    padding: 10px 40px;
+    margin: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .navButton:hover {
+    background-color: transparent;
+    color: #320A18;
+    cursor: pointer;
+    font-size: 15px;
+    text-shadow:
+    -.2px -.2px 0 #320A18,
+    .2px -.2px 0 #320A18,
+    -.2px .2px 0 #320A18,
+    .2px .2px 0 #320A18;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  .bottomNavButton {
+    background-color: transparent;
+    border: transparent;
+    color:#320A18;
+    font-size: 14px;
+    padding: 0px 40px;
+    transition-duration: 0.4s;
+  }
+
+  .bottomNavButton:hover {
+    background-color: transparent;
+    color: #320A18;
+    cursor: pointer;
+    text-shadow:
+    -.2px -.2px 0 #320A18,
+    .2px -.2px 0 #320A18,
+    -.2px .2px 0 #320A18,
+    .2px .2px 0 #320A18;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  @media only screen and (max-width:600) {
+    .Skills {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #893251;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        padding-top: 50px; 
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:#fdf3ed; 
+        border-bottom: 1px solid #893251;  
+    }
+  }
