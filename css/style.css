@@ -229,6 +229,50 @@ footer {
     z-index: 1;
 }
 
+.bagaButton2 {
+    position: absolute;
+    top: 101%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h3 {
+    font-family: 'Lato';
+}
+
+.bagacard {
+    text-align: center;
+    padding-bottom: 40px;
+    border-top: #598893 solid 1px;
+}
+
+.bagabg {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bagabg h2 {
+    margin-right: 60px;
+}
+
+.bagabg p {
+    width: 500px;
+}
+
+.bagaHead {
+    text-align: center;
+    background-color: #C0D5DA;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.bagaHead h3 {
+    color: #598893;
+}
+
 .projectSection {
     background-color: #fdf3ed;
     padding-top: 1px;
