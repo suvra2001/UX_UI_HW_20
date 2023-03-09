@@ -367,7 +367,7 @@ footer {
     transition: all .3s;
   }
 
-  @media only screen and (max-width:600) {
+  /* @media only screen and (max-width:600) {
     .Skills {
         display: flex;
         align-items: center;
@@ -387,7 +387,7 @@ footer {
         background-color:#fdf3ed; 
         border-bottom: 1px solid #893251;  
     }
-  }
+  } */
 
   .card {
     -webkit-transition: all 0.3s ease-in-out;
