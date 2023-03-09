@@ -250,6 +250,8 @@ footer {
 }
 
 .PinchHero {
+    padding: 50px;
+    background-color: #fdf3ed;
     position: absolute;
     top: 25%;
     left: 25%;
